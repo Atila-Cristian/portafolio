@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fotn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- styles  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icons/portafolio-profesional.png" type="image.png">
+    <title>Atila Cristian</title>
+  </head>
+
+  <body class="dark"> 
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle_theme">
+          <img id="toggle-icon" src="assets/icons/moon-stars-fill.svg" alt="icon theme" class="toggle_theme--icon">
+          <p id="toggle-text" class="toggle_theme--text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+
+        <div data-color="hsl(113, 93%, 39%)" class="colors_item colors_item--green"></div>
+
+        <div data-color="hsl(286, 92%, 41%)" class="colors_item colors_item--purple"></div>
+
+        <div data-color="hsl(32, 86%, 53%)" class="colors_item colors_item--orange"></div>
+      </div> 
+    </header>
+
+   <main class="main"> 
+    <section class="column column--left">
+
+      <!--profile card-->
+      <article class="card card--profile">
+        <div class="card__image--container">
+          <img src="/assets/images/c29c84886a8cf910f56d0a7933570fc0.jpg" class="perfil-img">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">Atila Cristian Bugallo</h2>
+          <p class="card__subtitle">Programador junior</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <img class="icon" src="/assets/icons/mail.svg">
+            <a href="mailto:Atila_Cristian@hotmail.com" target="_blank">Atila_Cristian@hotmail.com</a>
+          </div>
+           <div class="card__link">
+            <img class="icon" src="assets/icons/telefono.svg">
+            <a href="#">tel: 1124020646</a>
+          </div>
+          <div class="card__link">
+            <img class="icon" src="assets/icons/github.svg">
+            <a href="https://github.com/Atila-Cristian" target="_blank">Mi Github</a>
+          </div>
+          <p class="card__text">Desarrollador Backend en Formación.
+            Soy un programador orientado al desarrollo backend, con conocimientos en JavaScript, SQL y tecnologías relacionadas.
+            Aunque no tengo experiencia laboral formal, he desarrollado proyectos personales y académicos que me han permitido adquirir habilidades prácticas
+            en programación, resolución de problemas y diseño de sistemas.
+            Estoy enfocado en mejorar mis conocimientos y en aplicar buenas prácticas para desarrollar soluciones funcionales y eficientes.
+            Busco oportunidades para colaborar en proyectos que me permitan continuar aprendiendo y aportar valor con mi trabajo.</p>
+        </div>
+      </article>
+      
+      <!--Modulo de experiencias-->
+      <!-- <article class="card card--experience">
+        <h2 class="card__title">Experiencia</h2>
+        <div class="experiencia">
+          <img src="" alt="" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              (fecha trabajada)
+            </p>
+            <h3 class="experience__job">(puesto)</h3>
+            <p class="experience__description">(descripcion del puesto de trabajo)</p>
+          </div>
+        </div>
+      </article>  -->
+
+      <!--Modulo de hobbies-->
+      <article class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image-container">
+          <img src="assets/images/hobbie3D.png" alt="Impresora 3D">
+        </div>
+        <h3>Impresion 3D</h3>
+        <p class="card__text">Desde hace más de 3 años disfruto explorando la impresión 3D, trabajando con tecnologías FDM y SLA. Me apasiona crear modelos en plástico y resina, utilizando herramientas como Cura, PrusaSlicer y Lychee Slicer para dar vida a mis ideas y proyectos.</p>
+      </article>
+
+    </section>
+
+    <!--Modulo de skills-->
+    <section class="column column--right">
+      <article class="card">
+ 
+        <h2 class="card__title">Lenguajes</h2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+
+        <div class="skills__header">
+          <span class="skills_start-level">0</span>
+          <span class="skills_start-level">1</span>
+        </div>
+          <div class="skill__items">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--40 "></div>
+          </div>
+          <div class="skill__items">
+            <p class="skills__tech">HTML5</p>
+            <div class="skills__bar skills__bar--60 "></div>
+          </div>
+          <div class="skill__items">
+            <p class="skills__tech">css</p>
+            <div class="skills__bar skills__bar--60 "></div>
+          </div>
+          <div class="skill__items">
+            <p class="skills__tech">SQL (MySQL)</p>
+            <div class="skills__bar skills__bar--30 "></div>
+          </div>
+        </div>
+     
+      </article>
+
+      <article class="card">
+ 
+        <h2 class="card__title">herramientas</h2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+
+        <div class="skills__header">
+          <span class="skills_start-level">0</span>
+          <span class="skills_start-level">1</span>
+        </div>
+
+          <div class="skill__items">
+            <p class="skills__tech">MySQL Workbench</p>
+            <div class="skills__bar skills__bar--30 "></div>
+          </div>
+
+          <div class="skill__items">
+            <p class="skills__tech">VS code</p>
+            <div class="skills__bar skills__bar--90 "></div>
+          </div>
+
+          <div class="skill__items">
+            <p class="skills__tech">Git</p>
+            <div class="skills__bar skills__bar--50 "></div>
+          </div>
+
+        </div>
+
+      </article>
+
+      <article class="card">
+ 
+        <h2 class="card__title">Tecnologias</h2>
+        <small>Años de experiencia</small>
+        <div class="skills">
+
+        <div class="skills__header">
+          <span class="skills_start-level">0</span>
+          <span class="skills_start-level">1</span>
+        </div>
+
+          <div class="skill__items">
+            <p class="skills__tech">Linux</p>
+            <div class="skills__bar skills__bar--60 "></div>
+          </div>
+        </div>
+
+      </article>
+
+      <!-- modulo de projectos -->
+       <article class="card card--project">
+        <div class="card__image--container">
+        <img src="assets/images/landing_page.png" alt="landing page" class="card__image image--project">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">>#HTML<</span>
+            <span class="project__tag">>#CSS<</span>
+            <span class="project__tag">>#JavaScript<</span>
+            <span class="project__tag">>#Responsive<</span>
+          </div>
+          <h2 class="card__title">Landing page</h2>
+          <p class="card__text">
+            Es una landing page básica diseñada para practicar HTML y CSS. Incluye un encabezado, una breve descripción, un botón de llamado a la acción y un diseño responsive para adaptarse a distintos dispositivos.
+          </p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Atila-Cristian/landing-page" class="button button--ghost">Code</a>
+          </div>
+        </div>
+       </article>
+
+    </section>
+
+   </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
